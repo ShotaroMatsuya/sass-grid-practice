@@ -5,6 +5,12 @@
 }
 html {
   font-size: 62.5%; //10px
+  @include response(md) {
+    font-size: 56.25%; //9px
+  }
+  @include response(sm) {
+    font-size: 50%; //8px
+  }
 }
 
 .container {
